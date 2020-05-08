@@ -1470,3 +1470,10 @@ body {
     text-decoration: none;
   }
   
+  footer{
+    background-color: #111;
+    height: 50px;
+    line-height: 50px;
+    color: silver;
+    letter-spacing: 2px;
+  }
