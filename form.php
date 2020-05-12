@@ -1,15 +1,4 @@
-<!DOCTYPE html>
-<html>
-<head>
-<title> Sign In Form</title>
-
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
-
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
- 
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+<?php require_once('inc/top.php');?>
 </head>
 
 <body>
@@ -19,12 +8,18 @@
    <br>
     <div class="col-lg-8 m-auto d-block">
 
-        <form class="bg-light">
+        <form class="bg-light" action="inc/signup.includes.php" method="POST">
         
             <div class="form-group">
-                <label>Name & Department</label>
+                <label>Name </label>
                 <input type="text" name="name" class="form-control" required id="name" onkeyup="myFunction(this)" autocomplete="off">
                 <div id="nameMessage"></div>
+			</div>
+			
+			<div class="form-group">
+                <label> Department</label>
+                <input type="text" name="dpname" class="form-control" required id="deptname" onkeyup="myFunction(this)" autocomplete="off">
+                <div id="deptnameMessage"></div>
             </div>
 
             <div class="form-group">
@@ -35,7 +30,7 @@
         
             <div class="form-group">
                 <label>Confirm Password</label>
-                <input type="password" name="pass" class="form-control" required id="conpass" onkeyup="myFunction(this)"  autocomplete="off">
+                <input type="password" name="cpass" class="form-control" required id="conpass" onkeyup="myFunction(this)"  autocomplete="off">
                 <div id="conpassMessage"></div>
             </div>
 
@@ -59,6 +54,7 @@
 
 <script type="text/javascript">
 var nameRegex = new RegExp(/^[a-zA-Z. ]*$/);
+var deptRegex = new RegExp(/^[a-zA-Z. ]*$/);
 var Mobileregx = new RegExp(/(^(\+88|0088)?(01){1}[3456789]{1}(\d){8})$/);
 var emailRegex = new RegExp(/^([a-zA-Z0-9_\-\.]+)@([a-zA-Z0-9_\-\.]+)\.([a-zA-Z]{2,5})$/);
 
@@ -79,6 +75,20 @@ function myFunction(obj){
  		}
  		else{
  			document.getElementById('nameMessage').innerHTML = "<span class='text-danger font-weight-bold'>Please Enter a valid name</span>";
+ 		}
+
+		 if(obj.id == "deptname"){
+ 		var name = document.getElementById('deptname').value;
+ 		if(nameRegex.test(name)){
+ 			if(name.length > 0){
+ 				document.getElementById('deptnameMessage').innerHTML = "<span class='text-success font-weight-bold'>The name is valid</span>";
+ 			}
+ 			else{
+ 				document.getElementById('deptnameMessage').innerHTML = "<span class='text-danger font-weight-bold'>Please Enter a valid name</span>";	
+ 			}	
+ 		}
+ 		else{
+ 			document.getElementById('deptnameMessage').innerHTML = "<span class='text-danger font-weight-bold'>Please Enter a valid name</span>";
  		}
  		
  	}
@@ -128,8 +138,4 @@ function myFunction(obj){
 
 }
 
-</script>
-
-</body>
-
-</html>
+<?php require_once('inc/footer.php');?>

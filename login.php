@@ -11,7 +11,7 @@
 
     <style type="text/css">
       body{
-        background-image: url(img1.jpg);
+        background-image: url(image/img1.jpg);
         background-size: cover;
   background-position: center center;
   background-attachment: fixed;
@@ -42,7 +42,7 @@
         </div>
         <button class="btn btn-success btn-block" type="submit">Sign in</button>
         <br>
-        <p>Forget password?<a href="form.html">Create an account</a></p>
+        <p>Forget password?<a href="form.php">Create an account</a></p>
       </form>
       
     </div>
@@ -50,6 +50,6 @@
 
 
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-    <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
+ <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
   </body>
 </html>
