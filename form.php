@@ -17,8 +17,23 @@
 			</div>
 			
 			<div class="form-group">
-                <label> Department</label>
-                <input type="text" name="dpname" class="form-control" required id="deptname" onkeyup="myFunction(this)" autocomplete="off">
+			<label for="sel1">Department (select one):</label>
+      <select class="form-control" name="dpname" required id="deptname" onkeyup="myFunction(this)" autocomplete="off">
+        <option>ECE</option>
+        <option>CSE</option>
+        <option>EEE</option>
+        <option>ME</option>
+		<option>CE</option>
+		<option>IPE</option>
+		<option>ETE</option>
+		<option>MTE</option>
+		<option>CFPE</option>
+		<option>BECM</option>
+		<option>MSE</option>
+		<option>GCE</option>
+		<option>URP</option>
+		<option>ARCHITECTURE</option>
+      </select>
                 <div id="deptnameMessage"></div>
             </div>
 
@@ -54,7 +69,7 @@
 
 <script type="text/javascript">
 var nameRegex = new RegExp(/^[a-zA-Z. ]*$/);
-var deptRegex = new RegExp(/^[a-zA-Z. ]*$/);
+
 var Mobileregx = new RegExp(/(^(\+88|0088)?(01){1}[3456789]{1}(\d){8})$/);
 var emailRegex = new RegExp(/^([a-zA-Z0-9_\-\.]+)@([a-zA-Z0-9_\-\.]+)\.([a-zA-Z]{2,5})$/);
 
@@ -77,19 +92,7 @@ function myFunction(obj){
  			document.getElementById('nameMessage').innerHTML = "<span class='text-danger font-weight-bold'>Please Enter a valid name</span>";
  		}
 
-		 if(obj.id == "deptname"){
- 		var name = document.getElementById('deptname').value;
- 		if(nameRegex.test(name)){
- 			if(name.length > 0){
- 				document.getElementById('deptnameMessage').innerHTML = "<span class='text-success font-weight-bold'>The name is valid</span>";
- 			}
- 			else{
- 				document.getElementById('deptnameMessage').innerHTML = "<span class='text-danger font-weight-bold'>Please Enter a valid name</span>";	
- 			}	
- 		}
- 		else{
- 			document.getElementById('deptnameMessage').innerHTML = "<span class='text-danger font-weight-bold'>Please Enter a valid name</span>";
- 		}
+		
  		
  	}
  	if(obj.id == "pass"){
@@ -138,4 +141,5 @@ function myFunction(obj){
 
 }
 
+</script>
 <?php require_once('inc/footer.php');?>

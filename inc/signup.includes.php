@@ -11,12 +11,19 @@ if(isset($_POST['submit']))
     $mobile = mysqli_real_escape_string($conn,$_POST['mobile']);
     $email = mysqli_real_escape_string($conn,$_POST['email']);
 
-    $sql = "INSERT INTO applications (name, dept_name, pass, con_pass, mob_num, email) VALUES ('$name','$dpname','$pass','$cpass','$mobile','$email');";
+    $sql = "INSERT INTO `applicants` (`id`, `name`, `dept_name`, `pass`, `con_pass`, `mob_num`, `email`) VALUES (null, '$name', '$dpname', '$pass', '$cpass', '$mobile', '$email');";
+    $run = mysqli_query($conn, $sql);
+    if ($run){
+
     header("Location: ../form.php?signup=success");
-    exit();
+    exit();}
+
+    else { echo" something went wrong";}
+    
+   
 }
 
 else{
-    header("Location: ../form.php");
+    header("Location: ../form.php?signup=error");
     exit();
 }
