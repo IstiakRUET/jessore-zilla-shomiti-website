@@ -15,7 +15,7 @@ if(isset($_POST['submit']))
     $run = mysqli_query($conn, $sql);
     if ($run){
 
-    header("Location: ../form.php?signup=success");
+    header("Location: ../login.php?signup=success");
     exit();}
 
     else { echo" something went wrong";}
