@@ -1,4 +1,6 @@
-
+<?php
+session_start();
+?>
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -29,23 +31,25 @@
     
     
     <div class="container animated shake">
+<form class="form-signin" action="inc/login.includes.php" method="POST">
+    <h2 class="form-signin-heading">Please sign in</h2>
+    <label for="inputEmail" class="sr-only">Email address</label>
+    <input type="email" name="email" id="inputEmail" class="form-control" placeholder="Email address" required autofocus>
+    <br>
+    <label for="inputPassword" class="sr-only">Password</label>
+    <input type="password" name="pwd" id="inputPassword" class="form-control" placeholder="Password" required>
+    <div class="checkbox">
+      <label>
+        <input type="checkbox" value="remember-me"> Remember me
+      </label>
+    </div>
+    <button class="btn btn-success btn-block" name="login" type="submit">Sign in</button>
+    <br>
+    <p>Forget password?<a href="form.php">Create an account</a></p>
+  </form>
+  
 
-      <form class="form-signin" action="inc/login.includes.php" method="POST">
-        <h2 class="form-signin-heading">Please sign in</h2>
-        <label for="inputEmail" class="sr-only">Email address</label>
-        <input type="email" name="email" id="inputEmail" class="form-control" placeholder="Email address" required autofocus>
-        <br>
-        <label for="inputPassword" class="sr-only">Password</label>
-        <input type="password" name="pwd" id="inputPassword" class="form-control" placeholder="Password" required>
-        <div class="checkbox">
-          <label>
-            <input type="checkbox" value="remember-me"> Remember me
-          </label>
-        </div>
-        <button class="btn btn-success btn-block" type="submit">Sign in</button>
-        <br>
-        <p>Forget password?<a href="form.php">Create an account</a></p>
-      </form>
+      
       
     </div>
     </div> <!-- /container -->
