@@ -1,0 +1,570 @@
+
+
+<?php require_once('inc/top.php');?>
+</head>
+
+<body>
+
+
+
+ 
+
+    <!-- ======= Team Section ======= -->
+    <section id="team" class="team">  <!-- for image round & slide-->
+      <div class="container">
+
+        <div class="row">
+          <div class="col-lg-3">
+            <div class="section-title" data-aos="fade-right">
+              <h2>PRESENT COMMITTEE</h2>
+              <p>2020-2021</p>
+            </div>
+          </div>
+          
+          <!--1st part-->     
+          <div class="col-lg-8">
+            <div class="row">
+
+              <div class="col-lg-6">
+                <div class="member" data-aos="zoom-in" data-aos-delay="100">
+                  <div class="pic"><img src="part/image/team/istiak.jpeg" class="img-fluid" alt=""></div>
+                  <div class="member-info">
+                    <h4>Istiak Ahmmed</h4>
+                    <span>President</span>
+                   
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-lg-6 mt-4 mt-lg-0">
+                <div class="member" data-aos="zoom-in" data-aos-delay="200">
+                  <div class="pic"><img src="part/image/team/sabbir.jpeg" class="img-fluid" alt=""></div>
+                  <div class="member-info">
+                    <h4>Farhan Nadim Sabbir</h4>
+                    <span>Secretary</span>
+                    
+                  </div>
+                </div>
+              </div>
+            
+
+         <!--2nd part-->    
+         <section>  <!-- for image round & slide-->
+          
+            <br>
+            
+              <div class="col-lg-12">
+                <div class="row">
+    
+                  <div class="col-lg-4">
+                    <div class="member" data-aos="zoom-in" data-aos-delay="100">
+                      <div class="pic"><img src="part/image/team/rakib.jpeg" class="img-fluid" alt=""></div>
+                      <div class="member-info">
+                        <h4>Mahade Hasan Rakiib</h4>
+                        <span>Vice-President</span>
+                        
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-lg-4">
+                    <div class="member" data-aos="zoom-in" data-aos-delay="100">
+                      <div class="pic"><img src="part/image/team/sakib.jpeg" class="img-fluid" alt=""></div>
+                      <div class="member-info">
+                        <h4>Al Sakib</h4>
+                        <span>Vice-President</span>
+                        
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-lg-4">
+                    <div class="member" data-aos="zoom-in" data-aos-delay="100">
+                      <div class="pic"><img src="part/image/team/tazbi.jpeg" class="img-fluid" alt=""></div>
+                      <div class="member-info">
+                        <h4>Tazbinur Rahman</h4>
+                        <span>Vice-President</span>
+                        
+                      </div>
+                    </div>
+                  </div>
+              
+                  <div class="col-lg-4">
+                    <div class="member" data-aos="zoom-in" data-aos-delay="100">
+                      <div class="pic"><img src="part/image/team/sadhin.jpeg" class="img-fluid" alt=""></div>
+                      <div class="member-info">
+                        <h4>Md Minhazul Islam Shadhin</h4>
+                        <span>Vice-President</span>
+                       
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-lg-4">
+                    <div class="member" data-aos="zoom-in" data-aos-delay="100">
+                      <div class="pic"><img src="part/image/team/.jpeg" class="img-fluid" alt=""></div>
+                      <div class="member-info">
+                        <h4>Jannatul Islam Mim</h4>
+                        <span>Vice-President</span>
+                       
+                      </div>
+                    </div>
+                  </div>
+
+                </section>
+       <!--3rd part-->
+                  <section id="team" class="team">  <!-- for image round & slide-->
+                    <div class="container">
+                  
+                      <div class="row">
+                        <div class="col-lg-3">
+                          <div class="section-title" data-aos="fade-right">
+                            <h2>Joint Secretary</h2>
+                            
+                          </div>
+                        </div>
+                                    <div class="col-lg-12">
+                                      <div class="row">
+                          
+                                        <div class="col-lg-6">
+                                          <div class="member" data-aos="zoom-in" data-aos-delay="100">
+                                            <div class="pic"><img src="part/image/team/pavel.jpeg" class="img-fluid" alt=""></div>
+                                            <div class="member-info">
+                                              <h4>Alisan Imam Pavel</h4>
+                                              <span>Joint Secretary</span>
+                                              
+                                            </div>
+                                          </div>
+                                        </div>
+                      
+                                        <div class="col-lg-6">
+                                          <div class="member" data-aos="zoom-in" data-aos-delay="100">
+                                            <div class="pic"><img src="part/image/team/lemon.jpeg" class="img-fluid" alt=""></div>
+                                            <div class="member-info">
+                                              <h4>Ashfakur Salehin Lemon</h4>
+                                              <span>Joint Secretary</span>
+                                              
+                                            </div>
+                                          </div>
+                                        </div>
+                      
+                                        
+                  
+                                      </section>
+                  
+                                  
+                             
+                      
+
+        
+<!--4th part-->
+
+<section id="team" class="team">  <!-- for image round & slide-->
+  <div class="container">
+
+    <div class="row">
+      <div class="col-lg-3">
+        <div class="section-title" data-aos="fade-right">
+          <h2>Financial Section</h2>
+          
+        </div>
+      </div>
+                  <div class="col-lg-12">
+                    <div class="row">
+        
+                      <div class="col-lg-4">
+                        <div class="member" data-aos="zoom-in" data-aos-delay="100">
+                          <div class="pic"><img src="part/image/team/pangku.jpeg" class="img-fluid" alt=""></div>
+                          <div class="member-info">
+                            <h4>Shakibur Rahman</h4>
+                            <span>Finance Secretary</span>
+                            
+                          </div>
+                        </div>
+                      </div>
+    
+                      <div class="col-lg-4">
+                        <div class="member" data-aos="zoom-in" data-aos-delay="100">
+                          <div class="pic"><img src="part/image/team/galib.jpeg" class="img-fluid" alt=""></div>
+                          <div class="member-info">
+                            <h4>Musanna Galib</h4>
+                            <span>Assistant Finance Secretary</span>
+                            
+                          </div>
+                        </div>
+                      </div>
+    
+                      <div class="col-lg-4">
+                        <div class="member" data-aos="zoom-in" data-aos-delay="100">
+                          <div class="pic"><img src="part/image/team/hrid.jpeg" class="img-fluid" alt=""></div>
+                          <div class="member-info">
+                            <h4>Rifat Tanzir</h4>
+                            <span>Assistant Finance Secretary</span>
+                           
+                          </div>
+                        </div>
+                      </div>
+
+                    </section>
+
+                
+           
+        
+
+<!--5th part-->
+    <section id="team" class="team">  <!-- for image round & slide-->
+      <div class="container">
+    
+        <div class="row">
+          <div class="col-lg-3">
+            <div class="section-title" data-aos="fade-right">
+              <h2>Library Section</h2>
+              
+            </div>
+          </div>
+                      <div class="col-lg-12">
+                        <div class="row">
+            
+                          <div class="col-lg-4">
+                            <div class="member" data-aos="zoom-in" data-aos-delay="100">
+                              <div class="pic"><img src="part/image/team/riad.jpeg" class="img-fluid" alt=""></div>
+                              <div class="member-info">
+                                <h4>S M Riad Hossain</h4>
+                                <span>Librarian</span>
+                                
+                              </div>
+                            </div>
+                          </div>
+        
+                          <div class="col-lg-4">
+                            <div class="member" data-aos="zoom-in" data-aos-delay="100">
+                              <div class="pic"><img src="part/image/team/shourov.jpeg" class="img-fluid" alt=""></div>
+                              <div class="member-info">
+                                <h4>Sowrov Hassan</h4>
+                                <span>Assistant Librarian</span>
+                                
+                              </div>
+                            </div>
+                          </div>
+        
+                          <div class="col-lg-4">
+                            <div class="member" data-aos="zoom-in" data-aos-delay="100">
+                              <div class="pic"><img src="part/image/team/podder.jpeg" class="img-fluid" alt=""></div>
+                              <div class="member-info">
+                                <h4>Souvik Podder</h4>
+                                <span>Assistant Librarian</span>
+                                
+                              </div>
+                            </div>
+                          </div>
+    
+                        </section>
+    
+                    <!--6th part-->
+                        <section id="team" class="team">  <!-- for image round & slide-->
+                          <div class="container">
+                        
+                            <div class="row">
+                              <div class="col-lg-3">
+                                <div class="section-title" data-aos="fade-right">
+                                  <h2>Organizing Section</h2>
+                                  
+                                </div>
+                              </div>
+                                          <div class="col-lg-12">
+                                            <div class="row">
+                                
+                                              <div class="col-lg-4">
+                                                <div class="member" data-aos="zoom-in" data-aos-delay="100">
+                                                  <div class="pic"><img src="part/image/team/sultan.jpeg" class="img-fluid" alt=""></div>
+                                                  <div class="member-info">
+                                                    <h4>Shams Sultan Prottoy</h4>
+                                                    <span>Organizing Secretary</span>
+                                                    
+                                                  </div>
+                                                </div>
+                                              </div>
+                            
+                                              <div class="col-lg-4">
+                                                <div class="member" data-aos="zoom-in" data-aos-delay="100">
+                                                  <div class="pic"><img src="part/image/team/prottoy.jpeg" class="img-fluid" alt=""></div>
+                                                  <div class="member-info">
+                                                    <h4>Sadman Sakib Prottoy</h4>
+                                                    <span>Assistant Organizing Secretary</span>
+                                                    
+                                                  </div>
+                                                </div>
+                                              </div>
+                            
+                                              <div class="col-lg-4">
+                                                <div class="member" data-aos="zoom-in" data-aos-delay="100">
+                                                  <div class="pic"><img src="part/image/team/doha.jpeg" class="img-fluid" alt=""></div>
+                                                  <div class="member-info">
+                                                    <h4>Abdullah Mushee Doha</h4>
+                                                    <span>Assistant Organizing Secretary</span>
+                                                   
+                                                  </div>
+                                                </div>
+                                              </div>
+
+                                              <div class="col-lg-4">
+                                                <div class="member" data-aos="zoom-in" data-aos-delay="100">
+                                                  <div class="pic"><img src="part/image/team/salman.jpeg" class="img-fluid" alt=""></div>
+                                                  <div class="member-info">
+                                                    <h4>Sakib Salman</h4>
+                                                    <span>Assistant Organizing Secretary</span>
+                                                   
+                                                  </div>
+                                                </div>
+                                              </div>
+
+                                              <div class="col-lg-4">
+                                                <div class="member" data-aos="zoom-in" data-aos-delay="100">
+                                                  <div class="pic"><img src="part/image/team/.jpeg" class="img-fluid" alt=""></div>
+                                                  <div class="member-info">
+                                                    <h4>Sakib Rahman</h4>
+                                                    <span>Assistant Organizing Secretary</span>
+                                                  
+                                                  </div>
+                                                </div>
+                                              </div>
+                        
+                                            </section>
+
+                 <!--7th part-->                           
+                 <section id="team" class="team">  <!-- for image round & slide-->
+                  <div class="container">
+                
+                    <div class="row">
+                      <div class="col-lg-3">
+                        <div class="section-title" data-aos="fade-right">
+                          <h2>Publicity Section</h2>
+                          
+                        </div>
+                      </div>
+                                  <div class="col-lg-12">
+                                    <div class="row">
+                        
+                                      <div class="col-lg-4">
+                                        <div class="member" data-aos="zoom-in" data-aos-delay="100">
+                                          <div class="pic"><img src="part/image/team/akib.jpeg" class="img-fluid" alt=""></div>
+                                          <div class="member-info">
+                                            <h4>Mohiuddin Akib</h4>
+                                            <span>Publicity Secretary</span>
+                                          
+                                          </div>
+                                        </div>
+                                      </div>
+                    
+                                      <div class="col-lg-4">
+                                        <div class="member" data-aos="zoom-in" data-aos-delay="100">
+                                          <div class="pic"><img src="part/image/team/asif.jpeg" class="img-fluid" alt=""></div>
+                                          <div class="member-info">
+                                            <h4>S M Asif Reza</h4>
+                                            <span>Assistant Publicity Secretary</span>
+                                            
+                                          </div>
+                                        </div>
+                                      </div>
+                    
+                                      <div class="col-lg-4">
+                                        <div class="member" data-aos="zoom-in" data-aos-delay="100">
+                                          <div class="pic"><img src="part/image/team/.jpeg" class="img-fluid" alt=""></div>
+                                          <div class="member-info">
+                                            <h4>Md Sifat Ullah</h4>
+                                            <span>Assistant Publicity Secretary</span>
+                                            
+                                          </div>
+                                        </div>
+                                      </div>
+                
+                                    </section>      
+
+             <!--8th part--> 
+             <section id="team" class="team">  <!-- for image round & slide-->
+              <div class="container">
+            
+                <div class="row">
+                  <div class="col-lg-3">
+                    <div class="section-title" data-aos="fade-right">
+                      <h2>Sports Section</h2>
+                      
+                    </div>
+                  </div>
+                              <div class="col-lg-12">
+                                <div class="row">
+                    
+                                  <div class="col-lg-4">
+                                    <div class="member" data-aos="zoom-in" data-aos-delay="100">
+                                      <div class="pic"><img src="part/image/team/jahedi.jpeg" class="img-fluid" alt=""></div>
+                                      <div class="member-info">
+                                        <h4>Ahmed Jahedi</h4>
+                                        <span>Sports Secretary</span>
+                                        
+                                      </div>
+                                    </div>
+                                  </div>
+                
+                                  <div class="col-lg-4">
+                                    <div class="member" data-aos="zoom-in" data-aos-delay="100">
+                                      <div class="pic"><img src="part/image/team/.jpeg" class="img-fluid" alt=""></div>
+                                      <div class="member-info">
+                                        <h4>Utsha Saha</h4>
+                                        <span>Assistant Sports Secretary</span>
+                                       
+                                      </div>
+                                    </div>
+                                  </div>
+                
+                                  <div class="col-lg-4">
+                                    <div class="member" data-aos="zoom-in" data-aos-delay="100">
+                                      <div class="pic"><img src="part/image/team/ghosh.jpeg" class="img-fluid" alt=""></div>
+                                      <div class="member-info">
+                                        <h4>Anik Ghosh</h4>
+                                        <span>Assistant Publicity Secretary</span>
+                                       
+                                      </div>
+                                    </div>
+                                  </div>
+            
+                                </section>                        
+               
+                <!--9th part--> 
+                <section id="team" class="team">  <!-- for image round & slide-->
+                  <div class="container">
+                
+                    <div class="row">
+                      <div class="col-lg-3">
+                        <div class="section-title" data-aos="fade-right">
+                          <h2>Cultural Section</h2>
+                          
+                        </div>
+                      </div>
+                                  <div class="col-lg-12">
+                                    <div class="row">
+                        
+                                      <div class="col-lg-4">
+                                        <div class="member" data-aos="zoom-in" data-aos-delay="100">
+                                          <div class="pic"><img src="part/image/team/.jpeg" class="img-fluid" alt=""></div>
+                                          <div class="member-info">
+                                            <h4>M Ashikul Haque Nayeem</h4>
+                                            <span>Cultural Secretary</span>
+                                            
+                                          </div>
+                                        </div>
+                                      </div>
+                    
+                                      <div class="col-lg-4">
+                                        <div class="member" data-aos="zoom-in" data-aos-delay="100">
+                                          <div class="pic"><img src="part/image/team/ikhtiar.jpeg" class="img-fluid" alt=""></div>
+                                          <div class="member-info">
+                                            <h4>Ikhtiar Khiljee</h4>
+                                            <span>Assistant Cultural Secretary</span>
+                                            
+                                          </div>
+                                        </div>
+                                      </div>
+                    
+                                      <div class="col-lg-4">
+                                        <div class="member" data-aos="zoom-in" data-aos-delay="100">
+                                          <div class="pic"><img src="part/image/team/.jpeg" class="img-fluid" alt=""></div>
+                                          <div class="member-info">
+                                            <h4>Sajid Shahriar</h4>
+                                            <span>Assistant Cultural Secretary</span>
+                                            
+                                          </div>
+                                        </div>
+                                      </div>
+
+                                      <div class="col-lg-4">
+                                        <div class="member" data-aos="zoom-in" data-aos-delay="100">
+                                          <div class="pic"><img src="part/image/team/.jpeg" class="img-fluid" alt=""></div>
+                                          <div class="member-info">
+                                            <h4>Sajeeb Santo</h4>
+                                            <span>Assistant Cultural Secretary</span>
+                                            
+                                          </div>
+                                        </div>
+                                      </div>
+                
+                                    </section> 
+                                    
+                  <!--10th part-->       
+                  <section id="team" class="team">  <!-- for image round & slide-->
+                    <div class="container">
+                  
+                      <div class="row">
+                        <div class="col-lg-3">
+                          <div class="section-title" data-aos="fade-right">
+                            <h2>Female Secretary</h2>
+                            
+                          </div>
+                        </div>
+                                    <div class="col-lg-12">
+                                      <div class="row">
+                          
+                                        <div class="col-lg-4">
+                                          <div class="member" data-aos="zoom-in" data-aos-delay="100">
+                                            <div class="pic"><img src="part/image/team/.jpeg" class="img-fluid" alt=""></div>
+                                            <div class="member-info">
+                                              <h4>Mafruha Shamma</h4>
+                                              <span>Female Secretary</span>
+                                              
+                                            </div>
+                                          </div>
+                                        </div>
+                      
+                                        <div class="col-lg-4">
+                                          <div class="member" data-aos="zoom-in" data-aos-delay="100">
+                                            <div class="pic"><img src="part/image/team/.jpeg" class="img-fluid" alt=""></div>
+                                            <div class="member-info">
+                                              <h4>Sanjida Nusrat Prerona</h4>
+                                              <span>Assistant Female Secretary</span>
+                                            
+                                            </div>
+                                          </div>
+                                        </div>
+                      
+                                        <div class="col-lg-4">
+                                          <div class="member" data-aos="zoom-in" data-aos-delay="100">
+                                            <div class="pic"><img src="part/image/team/.jpeg" class="img-fluid" alt=""></div>
+                                            <div class="member-info">
+                                              <h4>Frazana Liza</h4>
+                                              <span>Assistant Female Secretary</span>
+                                              
+                                            </div>
+                                          </div>
+                                        </div>
+  
+                                        <div class="col-lg-4">
+                                          <div class="member" data-aos="zoom-in" data-aos-delay="100">
+                                            <div class="pic"><img src="part/image/team/.jpeg" class="img-fluid" alt=""></div>
+                                            <div class="member-info">
+                                              <h4>Ruhina Tabassum</h4>
+                                              <span>Assistant Female Secretary</span>
+                                              
+                                            </div>
+                                          </div>
+                                        </div>
+                  
+                                      </section>             
+                
+            </div>
+    
+          </div>
+        </section><!-- End Team Section -->
+
+
+   <br>
+   <br> 
+
+   <footer>
+         <div class="container">
+           Copyright &copy; by <a href="https://web.facebook.com/istiak.fahim.167">Istiak Ahmmed</a>.
+           All Right Reserved from 1st April, 2020.
+         </div>
+   </footer>
+
+</body>
+
+</html>

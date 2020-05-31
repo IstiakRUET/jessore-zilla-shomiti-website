@@ -1,3 +1,5 @@
+<?php require_once('inc/dbh.includes.php');?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -16,7 +18,7 @@ body {
 
     #img{
       height: 400px;
-      width: 50%;
+      width: 100%;
     }
   
   
@@ -24,28 +26,63 @@ body {
 </head>
 
 <body>
+<?php
+$slider_query = "SELECT * from slider where status = 'publish' ORDER BY id DESC LIMIT 5";
+$slider_run = mysqli_query($conn,$slider_query);
+if(mysqli_num_rows($slider_run) > 0){
+    $count = mysqli_num_rows($slider_run);
+}
+?>
 
-  <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
-    <div class="carousel-inner">
-      <div class="carousel-item active">
-        <img id="img" src="img1.jpg" class="d-block w-100" alt="...">
-      </div>
-      <div class="carousel-item">
-        <img id="img" src="" class="d-block w-100" alt="...">
-      </div>
-      <div class="carousel-item">
-        <img id="img" src="" class="d-block w-100" alt="...">
-      </div>
-    </div>
-    <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
-      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-      <span class="sr-only">Previous</span>
-    </a>
-    <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
-      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-      <span class="sr-only">Next</span>
-    </a>
+<div id="demo" class="carousel slide" data-ride="carousel">
+
+<!-- Indicators -->
+<ul class="carousel-indicators">
+  <?php
+   for($i = 0; $i<$count; $i++){
+     if($i == 0){
+       echo"<li data-target='#demo' data-slide-to='".$i."' class='active'></li>";
+     }
+     else{
+      echo"<li data-target='#demo' data-slide-to='".$i."'></li>";
+     }
+   }
+   ?>
+</ul>
+
+<!-- The slideshow -->
+<div class="carousel-inner">
+<?php
+ $check = 0;
+   while($slider_row = mysqli_fetch_array($slider_run)){
+     $slider_id = $slider_row['id'];
+     $slider_image = $slider_row['image'];
+     $slider_status = $slider_row['status'];
+     $check = $check +1;
+     if($check == 1){
+         echo" <div class='carousel-item active'>";
+       } 
+     else{
+        echo" <div class='carousel-item'>";
+       }
+   
+?>
+ 
+    <img id="img" src="<?php echo $slider_image; ?>">
   </div>
+      <?php } ?>
+</div> 
+
+
+<!-- Left and right controls -->
+<a class="carousel-control-prev" href="#demo" data-slide="prev">
+  <span class="carousel-control-prev-icon"></span>
+</a>
+<a class="carousel-control-next" href="#demo" data-slide="next">
+  <span class="carousel-control-next-icon"></span>
+</a>
+
+</div>
 
   <br>
 

@@ -29,21 +29,19 @@ require_once('inc/dbh.includes.php');
 			<label for="sel1">Name (select one):</label>
             <select class="form-control">
             <?php
-                    echo "Nakib vai";
+                   
             $query = "SELECT * FROM categories ORDER BY id DESC";
-            $run = mysquli_query($conn,$query);
+            $run = mysqli_query($conn,$query);
             if(mysqli_num_rows($run) > 0){
-                echo "Istiak";
+                
                 while($row = mysqli_fetch_array($run)){
                     $category = ucfirst($row['category']);
-                ?>
-                <option value="<?php echo $category; ?>"><?php echo $category; ?></option>
-                <?php    
+                    echo "<option><a href='#'>$category</a></option>";
+                   
                 }
             }
             else{
-                echo "Istiak2";
-                echo "<option>No Categories Yet</option>";
+                    echo "<option>No Categories Yet</option>";
             }
 
             ?>
