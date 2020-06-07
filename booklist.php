@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Practice</title>
+  <title>Book List</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"> <!--column toirir jnne obosshoi dite hbe-->
@@ -30,7 +30,7 @@ if (isset($_SESSION['message'])):
 <div class="container">
 <?php
    $mysqli = new mysqli('localhost','root','','gjsa') or die(mysqli_error($mysqli));
-   $result = $mysqli -> query("SELECT * FROM physics") or die($mysqli->error);
+   $result = $mysqli -> query("SELECT * FROM booklist") or die($mysqli->error);
 ?>
 
 <div class = "row justify-content-center">
@@ -50,9 +50,9 @@ if (isset($_SESSION['message'])):
                 <td><?php echo $row['bookname']; ?></td>
                 <td><?php echo $row['writer']; ?></td>
                 <td>
-                    <a href="practice.php?edit=<?php echo $row['id']; ?>"
+                    <a href="booklist.php?edit=<?php echo $row['id']; ?>"
                     class="btn btn-info">Edit</a>
-                    <a href="practice.php?delete=<?php echo $row['id']; ?>"
+                    <a href="booklist.php?delete=<?php echo $row['id']; ?>"
                     class="btn btn-danger">Delete</a>
                     
                 </td>
@@ -73,7 +73,7 @@ function pre_r($array){
   
 
 <div class="row justify-content-center">
-    <form action="practice.php" method="POST">
+    <form action="booklist.php" method="POST">
         <input type="hidden" name="id" value="<?php echo $id; ?>">
         <div class="form-group">
         <label>Book Name</label>
