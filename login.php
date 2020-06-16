@@ -15,8 +15,8 @@ session_start();
 
     <style type="text/css">
       body{
-        background-image: url(image/img1.jpg);
-        background-size: cover;
+  background-image: url(image/img1.jpg);
+  background-size: cover;
   background-position: center center;
   background-attachment: fixed;
   

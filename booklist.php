@@ -14,19 +14,6 @@
 
 <?php require_once 'process.php';?>
 
-<?php
-if (isset($_SESSION['message'])): 
-?>
-
-<div class="alert alert-<?=$_SESSION['msg_type']?>">
-<?php echo $_SESSION['message'];
-      unset($_SESSION['message']);
-?>
-</div>
-
-<?php endif ?>
-
-   
 <div class="container">
 <?php
    $mysqli = new mysqli('localhost','root','','gjsa') or die(mysqli_error($mysqli));
@@ -63,25 +50,17 @@ if (isset($_SESSION['message'])):
 </table>   
 </div>  
 
-<?php
-function pre_r($array){
-    echo '<pre>';
-    print_r($array);
-    echo '</pre>';
-}
-?>
-  
 
 <div class="row justify-content-center">
     <form action="booklist.php" method="POST">
         <input type="hidden" name="id" value="<?php echo $id; ?>">
         <div class="form-group">
         <label>Book Name</label>
-        <input type="text" name="bookname" class="form-control" value="<?php echo $bookname; ?>" placeholder="Enter Book Name">
+        <input type="text" name="bookname" class="form-control" value="<?php echo $bookname; ?>" placeholder="Enter Book Name" autocomplete="off">
         </div>    
         <div class="form-group">
         <label>Writer Name</label>
-        <input type="text" name="writer" class="form-control" value="<?php echo $writer; ?>" placeholder="Enter Writer Name">
+        <input type="text" name="writer" class="form-control" value="<?php echo $writer; ?>" placeholder="Enter Writer Name" autocomplete="off">
         </div>
         <div class="form-group">
         <?php 

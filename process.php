@@ -1,5 +1,5 @@
 <?php
-session_start();
+
 $mysqli = new mysqli('localhost','root','','gjsa') or die(mysqli_error($mysqli));
 
 $id = 0;
@@ -9,23 +9,17 @@ $writer = '';
 
 if(isset($_POST['save'])){
 
-        $bookname = $_POST['bookname'];
-        $writer =  $_POST['writer'];
+    $bookname = $_POST['bookname'];
+    $writer =  $_POST['writer'];
 
-        $mysqli -> query("INSERT INTO `booklist` (`bookname`, `writer`) VALUES ('$bookname', '$writer')") or
-        die($mysqli->error);
-        $_SESSION['message'] = "Record has been saved!";
-        $_SESSION['msg_type'] = "success";
-        header("location: booklist.php");
+    $mysqli -> query("INSERT INTO `booklist` (`bookname`, `writer`) VALUES ('$bookname', '$writer')") or
+    die($mysqli->error);
    }
     
 
 if (isset($_GET['delete'])){
     $id = $_GET['delete'];
     $mysqli->query("DELETE from booklist where id=$id") or die($mysqli->error());
-    $_SESSION['message'] = "Record has been deleted!";
-    $_SESSION['msg_type'] = "danger";
-    header("location: booklist.php");
 }
 
 if (isset($_GET['edit'])){
@@ -46,6 +40,6 @@ if (isset($_POST['update'])){
 
     $mysqli->query("UPDATE booklist SET bookname='$bookname', writer='$writer' WHERE id=$id") or
     die($mysqli->error());
-
 }
+?>
 
