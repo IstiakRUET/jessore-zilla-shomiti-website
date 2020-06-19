@@ -41,7 +41,6 @@
                     class="btn btn-info">Edit</a>
                     <a href="booklist.php?delete=<?php echo $row['id']; ?>"
                     class="btn btn-danger">Delete</a>
-                    
                 </td>
             </tr>  
 
