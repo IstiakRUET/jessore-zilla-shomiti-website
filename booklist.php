@@ -1,3 +1,10 @@
+<?php 
+session_start();
+if(!isset($_SESSION['u_email'])){
+  header("Location: page1.php");
+  exit();
+}
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>

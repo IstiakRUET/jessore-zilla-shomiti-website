@@ -1,4 +1,10 @@
-<?php require_once('inc/dbh.includes.php');?>
+<?php require_once('inc/dbh.includes.php');
+session_start();
+if(!isset($_SESSION['u_email'])){
+  header("Location: login.php");
+  exit();
+}
+?>
 
 <!DOCTYPE html>
 <html lang="en">
@@ -26,6 +32,25 @@ body {
 </head>
 
 <body>
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+  <a class="navbar-brand" href="#">Navbar</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarColor01">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item">
+        <a class="nav-link" href="#">Log out</a>
+      </li>
+    </ul>
+   
+  </div>
+</nav>
+
+
+
 <?php
 $slider_query = "SELECT * from slider where status = 'publish' ORDER BY id DESC LIMIT 5";
 $slider_run = mysqli_query($conn,$slider_query);
@@ -110,7 +135,7 @@ if(mysqli_num_rows($slider_run) > 0){
             <div class="card-body">
               <h5 class="card-title">Library</h5>
               <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <a href="page2.php" class="btn btn-primary">Go Details</a>
+              <a href="booklist.php" class="btn btn-primary">Go Details</a>
             </div>
           </div>
           </div>
